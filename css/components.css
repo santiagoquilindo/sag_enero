@@ -162,6 +162,27 @@
 .news-item p{
   padding-bottom: 1.25rem;
 }
+
+/* Comunicados: tarjetas mas grandes */
+#blogger-news .news-date{
+  font-size: 1rem;
+}
+#blogger-news h3{
+  font-size: 1.35rem;
+}
+#blogger-news p{
+  font-size: 1.15rem;
+  line-height: 1.7;
+  padding-bottom: 1.75rem;
+}
+#blogger-news .news-thumb{
+  height: 420px;
+}
+#blogger-news .news-date,
+#blogger-news h3,
+#blogger-news p{
+  padding: 0 1.75rem;
+}
 .news-cta{
   margin-top: 16px;
 }

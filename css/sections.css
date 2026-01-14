@@ -691,6 +691,26 @@
   margin: 0;
 }
 
+/* Noticias: layout en 2 columnas con Flexbox */
+#blogger-news{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 100%;
+  margin: 0;
+}
+#blogger-news .news-item{
+  flex: 1 1 calc(50% - 12px);
+  max-width: calc(50% - 12px);
+}
+
+@media (max-width: 900px){
+  #blogger-news .news-item{
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
 .news-date{
   display: inline-block;
   font-size: 12px;
